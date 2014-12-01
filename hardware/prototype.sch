@@ -16781,36 +16781,36 @@ DIN A3, landscape with location and doc. field</description>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="16MHZ" library="special" deviceset="XTAL/S" device=""/>
+<part name="C5" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="050-025X075" value="22p"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="050-025X075" value="22p"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0204/7" value="4k7"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="0204/7" value="330"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="0204/7" value="330"/>
+<part name="X2" library="special" deviceset="XTAL/S" device="" value="16MHz"/>
 <part name="ATMEGA168-20PU" library="adafruit" deviceset="ATMEGA168*P" device="" technology="V-10" value=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="050-025X075"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
 <part name="RESET" library="switch-tact" deviceset="DTS-6" device="" value=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2-5"/>
-<part name="OSC1" library="special" deviceset="XTAL/S" device="" value="16MHz"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="050-025X075"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10u"/>
+<part name="X1" library="special" deviceset="XTAL/S" device="" value="16MHz"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="050-025X075" value="22p"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="050-025X075" value="22p"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="D1" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="Q3" library="transistor-small-signal" deviceset="BS170" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0204/7"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="75V" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
+<part name="BS170" library="transistor-small-signal" deviceset="BS170" device="" value=""/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="0204/7"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
 <part name="RASPI" library="con-lstb" deviceset="MA13-2" device=""/>
 <part name="ICSP" library="adafruit" deviceset="AVRISP" device="-6"/>
 <part name="RXBUF1" library="led" deviceset="LED" device="5MM"/>
@@ -16845,7 +16845,7 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="R8" gate="G$1" x="149.86" y="5.08" rot="R90"/>
 <instance part="R9" gate="G$1" x="142.24" y="63.5" rot="R90"/>
 <instance part="R10" gate="G$1" x="160.02" y="5.08" rot="R90"/>
-<instance part="16MHZ" gate="G$1" x="91.44" y="-2.54" rot="R90"/>
+<instance part="X2" gate="G$1" x="91.44" y="-2.54" rot="R90"/>
 <instance part="ATMEGA168-20PU" gate="G$1" x="215.9" y="83.82"/>
 <instance part="C4" gate="G$1" x="172.72" y="96.52"/>
 <instance part="C8" gate="G$1" x="160.02" y="106.68"/>
@@ -16854,13 +16854,13 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="P+1" gate="VCC" x="160.02" y="78.74"/>
 <instance part="SUPPLY6" gate="GND" x="144.78" y="86.36"/>
 <instance part="C3" gate="G$1" x="160.02" y="93.98"/>
-<instance part="OSC1" gate="G$1" x="187.96" y="91.44" rot="R90"/>
+<instance part="X1" gate="G$1" x="187.96" y="91.44" rot="R90"/>
 <instance part="C10" gate="G$1" x="182.88" y="96.52" rot="R90"/>
 <instance part="C11" gate="G$1" x="182.88" y="86.36" rot="R90"/>
 <instance part="SUPPLY7" gate="GND" x="180.34" y="83.82"/>
 <instance part="R3" gate="G$1" x="180.34" y="121.92" rot="R90"/>
-<instance part="D1" gate="G$1" x="187.96" y="121.92" rot="R90"/>
-<instance part="Q3" gate="1" x="279.4" y="91.44" rot="R180"/>
+<instance part="75V" gate="G$1" x="187.96" y="121.92" rot="R90"/>
+<instance part="BS170" gate="1" x="279.4" y="91.44" rot="R180"/>
 <instance part="R4" gate="G$1" x="266.7" y="91.44" rot="R90"/>
 <instance part="R5" gate="G$1" x="266.7" y="101.6" rot="R90"/>
 <instance part="SUPPLY8" gate="GND" x="266.7" y="119.38" rot="R180"/>
@@ -16956,7 +16956,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
 <junction x="180.34" y="127"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="75V" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="127" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -17084,7 +17084,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="MCP2515-I/P" gate="G$1" pin="OSC2"/>
 <wire x1="101.6" y1="2.54" x2="91.44" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="16MHZ" gate="G$1" pin="2"/>
+<pinref part="X2" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="2.54" x2="83.82" y2="2.54" width="0.1524" layer="91"/>
 <junction x="91.44" y="2.54"/>
 </segment>
@@ -17095,7 +17095,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="101.6" y1="-2.54" x2="101.6" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="-7.62" x2="91.44" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="16MHZ" gate="G$1" pin="1"/>
+<pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="91.44" y="-7.62"/>
 </segment>
@@ -17160,7 +17160,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="ATMEGA168-20PU" gate="G$1" pin="PB6(XTAL1/TOSC1/PCI6)"/>
 <wire x1="193.04" y1="93.98" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="OSC1" gate="G$1" pin="2"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <junction x="187.96" y="96.52"/>
@@ -17170,7 +17170,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="ATMEGA168-20PU" gate="G$1" pin="PB7(XTAL2/TOSC2/PCI7)"/>
 <wire x1="193.04" y1="88.9" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="OSC1" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <junction x="187.96" y="86.36"/>
@@ -17191,14 +17191,13 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="Q3" gate="1" pin="D"/>
-<wire x1="276.86" y1="86.36" x2="276.86" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="ATMEGA168-20PU" gate="G$1" pin="(PCI16/RXD)PD0"/>
-<wire x1="276.86" y1="81.28" x2="276.86" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="254" y1="86.36" x2="254" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="254" y1="81.28" x2="276.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="254" y1="86.36" x2="254" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="BS170" gate="1" pin="D"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="276.86" y1="86.36" x2="276.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -17206,7 +17205,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="111.76" x2="289.56" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="111.76" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="1" pin="G"/>
+<pinref part="BS170" gate="1" pin="G"/>
 <wire x1="284.48" y1="91.44" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="93.98" x2="317.5" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="93.98" x2="317.5" y2="127" width="0.1524" layer="91"/>
@@ -17283,7 +17282,7 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="Q3" gate="1" pin="S"/>
+<pinref part="BS170" gate="1" pin="S"/>
 <pinref part="RASPI" gate="G$1" pin="7"/>
 <wire x1="325.12" y1="111.76" x2="304.8" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="111.76" x2="304.8" y2="101.6" width="0.1524" layer="91"/>
@@ -17298,7 +17297,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="190.5" y1="149.86" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="75V" gate="G$1" pin="A"/>
 <wire x1="182.88" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="116.84" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="ATMEGA168-20PU" gate="G$1" pin="PC6(/RESET/PCI14)"/>
@@ -17328,6 +17327,15 @@ DIN A3, landscape with location and doc. field</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="108,1,276.86,78.74,N$23,,,,,"/>
+<approved hash="113,1,186.783,121.92,75V,,,,,"/>
+<approved hash="113,1,332.74,102.675,RASPI,,,,,"/>
+<approved hash="113,1,149.538,16.51,RXBUF1,,,,,"/>
+<approved hash="113,1,159.698,16.51,RXBUF2,,,,,"/>
+<approved hash="113,1,12.7,64.9282,CANPORT,,,,,"/>
+<approved hash="113,1,171.752,67.5489,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

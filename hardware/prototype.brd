@@ -127,13 +127,13 @@
 <text x="33.196440625" y="55.270378125" size="0.8128" layer="21" rot="R90">GND</text>
 <wire x1="0.4826" y1="57.708371875" x2="62.673184375" y2="57.708371875" width="0.2032" layer="20"/>
 <wire x1="62.673184375" y1="57.708371875" x2="62.673184375" y2="0.5334" width="0.2032" layer="20"/>
-<wire x1="0.4572" y1="57.7088" x2="0.4572" y2="17.1196" width="0.2032" layer="20"/>
 <wire x1="26.797" y1="17.1196" x2="27.8638" y2="16.0528" width="0.2032" layer="20"/>
 <wire x1="27.8638" y1="16.0528" x2="27.8638" y2="0.4826" width="0.2032" layer="20"/>
 <wire x1="62.6618" y1="0.4826" x2="27.8638" y2="0.4826" width="0.2032" layer="20"/>
-<wire x1="26.797" y1="17.1196" x2="0.4572" y2="17.1196" width="0.2032" layer="20"/>
+<wire x1="26.797" y1="17.1196" x2="0.4826" y2="17.1196" width="0.2032" layer="20"/>
 <text x="1.2192" y="17.5006" size="1.27" layer="25">By Dimme.net
 &amp; Leston.me</text>
+<wire x1="0.4826" y1="57.6834" x2="0.4826" y2="17.1196" width="0.2032" layer="20"/>
 </plain>
 <libraries>
 <library name="MCP2515_MT">
@@ -1947,91 +1947,112 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="41.5443125" y="47.34795625" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="35.6656" y="46.5356" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C5" library="rcl" package="C050-025X075" value="" x="23.5848" y="43.781" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.617215625" y="42.166734375" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="20.7908" y="47.21" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="C5" library="rcl" package="C050-025X075" value="100n" x="23.5848" y="43.781" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.715015625" y="42.420734375" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="20.6384" y="47.8196" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C6" library="rcl" package="C050-025X075" value="" x="58.4462" y="8.7494" rot="R180"/>
-<element name="C1" library="rcl" package="C050-025X075" value="" x="30.3232" y="34.4342"/>
-<element name="C2" library="rcl" package="C050-025X075" value="" x="30.357" y="19.546"/>
-<element name="R2" library="rcl" package="0204/7" value="" x="48.1236375" y="51.421209375" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.8282375" y="48.881209375" size="0.9906" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="48.6062375" y="49.795609375" size="0.9906" layer="27" ratio="10" rot="R90"/>
+<element name="C6" library="rcl" package="C050-025X075" value="100n" x="58.4462" y="8.7494" smashed="yes" rot="R180">
+<attribute name="NAME" x="57.1254" y="11.4418" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="62.4086" y="11.4672" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R8" library="rcl" package="0204/7" value="" x="56.5782" y="12.4944" smashed="yes">
-<attribute name="NAME" x="61.54" y="12.053646875" size="0.9906" layer="25" ratio="10"/>
-<attribute name="VALUE" x="54.9526" y="12.0118" size="0.9906" layer="27" ratio="10"/>
+<element name="C1" library="rcl" package="C050-025X075" value="22p" x="30.3232" y="34.4342" smashed="yes">
+<attribute name="NAME" x="26.6656" y="36.0852" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="30.8566" y="36.136" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R9" library="rcl" package="0204/7" value="" x="47.901" y="37.187" rot="R270"/>
-<element name="R10" library="rcl" package="0204/7" value="" x="55.4651625" y="22.8198375" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.667015625" y="23.1796375" size="0.9906" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="57.0907625" y="23.3024375" size="0.9906" layer="27" ratio="10" rot="R180"/>
+<element name="C2" library="rcl" package="C050-025X075" value="22p" x="30.357" y="19.546" smashed="yes">
+<attribute name="NAME" x="27.2328" y="21.197" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="26.2502" y="18.3174" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="16MHZ" library="special" package="QS" value="" x="32.94" y="27.0004" smashed="yes" rot="R90">
-<attribute name="VALUE" x="36.877" y="21.9204" size="1.27" layer="27" ratio="10" rot="R90"/>
-<attribute name="NAME" x="30.1206" y="24.816" size="1.27" layer="25" ratio="10" rot="R90"/>
+<element name="R2" library="rcl" package="0204/7" value="4k7" x="48.1236375" y="51.421209375" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.0568375" y="50.710009375" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="48.6062375" y="50.252809375" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R8" library="rcl" package="0204/7" value="330" x="56.5782" y="12.4944" smashed="yes">
+<attribute name="NAME" x="52.3706" y="13.450646875" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="55.4098" y="12.0118" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="R9" library="rcl" package="0204/7" value="10k" x="47.901" y="37.187" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.9198" y="38.2792" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="47.3422" y="38.6602" size="0.9906" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R10" library="rcl" package="0204/7" value="330" x="55.4651625" y="22.8198375" smashed="yes" rot="R180">
+<attribute name="NAME" x="56.839215625" y="24.9322375" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="57.0145625" y="23.3024375" size="0.9906" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="X2" library="special" package="QS" value="16MHz" x="32.94" y="27.0004" smashed="yes" rot="R90">
+<attribute name="VALUE" x="30.3238" y="26.2638" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="NAME" x="30.4254" y="22.6824" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="ATMEGA168-20PU" library="adafruit" package="DIL28-3" value="" x="6.54" y="38.8252" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.46988125" y="50.83804375" size="1.778" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="7.4798" y="23.0772" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C4" library="rcl" package="C050-025X075" value="" x="14.704" y="30.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.355" y="33.729" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="11.91" y="33.729" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="C4" library="rcl" package="C050-025X075" value="100n" x="14.704" y="30.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.9354" y="28.903" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="11.8338" y="34.491" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C8" library="rcl" package="C050-025X075" value="" x="21.8852" y="31.9304" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.3142" y="30.2794" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="25.3142" y="34.7244" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="C8" library="rcl" package="C050-025X075" value="100n" x="21.8852" y="31.9304" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.4882" y="34.699" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="25.9238" y="34.7244" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C9" library="rcl" package="C050-025X075" value="" x="21.844865625" y="28.450128125" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.990125" y="31.372296875" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="25.273865625" y="31.244128125" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="C9" library="rcl" package="C050-025X075" value="100n" x="21.844865625" y="28.450128125" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.072925" y="26.927296875" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="25.829671875" y="31.192065625" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="RESET" library="switch-tact" package="DTS-6" value="" x="19.1992" y="21.4864" smashed="yes">
 <attribute name="NAME" x="16.4306" y="24.8392" size="1.27" layer="25"/>
 <attribute name="VALUE" x="16.6592" y="16.4064" size="1.27" layer="27"/>
 </element>
-<element name="C3" library="rcl" package="E2-5" value="" x="29.8832" y="43.8198" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.89434375" y="41.75558125" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="27.7242" y="41.2798" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="C3" library="rcl" package="E2-5" value="10u" x="29.8832" y="43.8198" smashed="yes" rot="R270">
+<attribute name="NAME" x="26.69741875" y="46.17294375" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="31.0594" y="46.2408" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="OSC1" library="special" package="QS" value="16MHz" x="14.7076" y="43.7882" smashed="yes" rot="R270">
-<attribute name="VALUE" x="10.7706" y="48.8682" size="1.27" layer="27" ratio="10" rot="R270"/>
-<attribute name="NAME" x="17.355525" y="46.14470625" size="1.27" layer="25" ratio="10" rot="R270"/>
+<element name="X1" library="special" package="QS" value="16MHz" x="14.7076" y="43.7882" smashed="yes" rot="R270">
+<attribute name="VALUE" x="17.2476" y="49.173" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="NAME" x="17.279325" y="42.00450625" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C10" library="rcl" package="C050-025X075" value="" x="17.2724" y="36.4604" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.56470625" y="37.288596875" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="20.7014" y="39.2544" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="C10" library="rcl" package="C050-025X075" value="22p" x="17.2724" y="36.4604" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.33710625" y="39.269796875" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="22.4904" y="35.5088" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C11" library="rcl" package="C050-025X075" value="" x="17.249" y="51.115" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.8734875" y="53.656071875" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="20.678" y="53.909" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="C11" library="rcl" package="C050-025X075" value="22p" x="17.249" y="51.115" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.0070875" y="54.037071875" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="21.2114" y="53.9852" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R3" library="rcl" package="0204/7" value="" x="47.4648" y="8.0986" rot="R180"/>
-<element name="D1" library="adafruit" package="DO-1N4148" value="" x="47.4458" y="10.965" rot="R180"/>
-<element name="Q3" library="transistor-small-signal" package="SOT54E" value="BS170" x="41.0706" y="15.4554" smashed="yes" rot="R180">
-<attribute name="VALUE" x="48.553065625" y="12.2155875" size="1.27" layer="27" ratio="10" rot="R180"/>
-<attribute name="NAME" x="45.22260625" y="13.835734375" size="1.27" layer="25" ratio="10" rot="R180"/>
+<element name="R3" library="rcl" package="0204/7" value="10k" x="47.4648" y="8.0986" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.4046" y="10.0798" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="49.0904" y="8.5812" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R4" library="rcl" package="0204/7" value="" x="33.693775" y="15.046596875" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.658975" y="17.307196875" size="0.9906" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="35.319375" y="15.529196875" size="0.9906" layer="27" ratio="10" rot="R180"/>
+<element name="75V" library="adafruit" package="DO-1N4148" value="" x="47.4458" y="10.965" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.9952" y="12.9716" size="1.016" layer="25" ratio="9" rot="R180"/>
+<attribute name="VALUE" x="49.4778" y="11.219" size="0.6096" layer="21" rot="R180"/>
 </element>
-<element name="R5" library="rcl" package="0204/7" value="" x="33.696" y="11.4374" smashed="yes">
-<attribute name="NAME" x="38.292696875" y="10.825728125" size="0.9906" layer="25" ratio="10"/>
-<attribute name="VALUE" x="32.0704" y="10.9548" size="0.9906" layer="27" ratio="10"/>
+<element name="BS170" library="transistor-small-signal" package="SOT54E" value="" x="41.0706" y="15.4554" smashed="yes" rot="R180">
+<attribute name="VALUE" x="44.057265625" y="12.9013875" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="44.07960625" y="12.997534375" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="R6" library="rcl" package="0204/7" value="" x="33.6282" y="8.1062" rot="R180"/>
-<element name="R7" library="rcl" package="0204/7" value="" x="41.093059375" y="19.545671875" smashed="yes">
-<attribute name="NAME" x="40.209" y="21.12713125" size="0.9906" layer="25" ratio="10"/>
-<attribute name="VALUE" x="39.467459375" y="19.063071875" size="0.9906" layer="27" ratio="10"/>
+<element name="R4" library="rcl" package="0204/7" value="10k" x="33.693775" y="15.046596875" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.658975" y="17.230996875" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="35.243175" y="15.529196875" size="0.9906" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="R5" library="rcl" package="0204/7" value="10k" x="33.696" y="11.4374" smashed="yes">
+<attribute name="NAME" x="32.882496875" y="12.603728125" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="32.6038" y="10.8786" size="0.9906" layer="27" ratio="10"/>
+</element>
+<element name="R6" library="rcl" package="0204/7" value="10k" x="33.6282" y="8.1062" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.6442" y="10.2398" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="35.1776" y="8.5888" size="0.9906" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="R7" library="rcl" package="0204/7" value="10k" x="41.093059375" y="19.545671875" smashed="yes">
+<attribute name="NAME" x="40.4376" y="20.74613125" size="0.9906" layer="25" ratio="10"/>
+<attribute name="VALUE" x="40.077059375" y="18.986871875" size="0.9906" layer="27" ratio="10"/>
 </element>
 <element name="RASPI" library="con-lstb" package="MA13-2" value="" x="45.6824" y="3.7864" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="unknown" x="15.2024" y="-43.2036" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="" x="15.2024" y="-43.2036" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="" x="15.2024" y="-43.2036" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.2024" y="-43.2036" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="43.0916" y="6.6566" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="50.0258" y="6.7074" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="38.0624" y="-0.4046" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="ICSP" library="adafruit" package="AVRISP" value="AVRISP-6" x="28.3502" y="54.141" smashed="yes" rot="R90">
@@ -2175,7 +2196,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C8" pad="2"/>
 <contactref element="ATMEGA168-20PU" pad="20"/>
 <contactref element="R3" pad="2"/>
-<contactref element="D1" pad="C"/>
+<contactref element="75V" pad="C"/>
 <contactref element="R6" pad="1"/>
 <contactref element="RASPI" pad="1"/>
 <contactref element="ICSP" pad="2"/>
@@ -2276,7 +2297,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$3">
 <contactref element="MCP2515-I/P" pad="7"/>
 <contactref element="C1" pad="2"/>
-<contactref element="16MHZ" pad="2"/>
+<contactref element="X2" pad="2"/>
 <wire x1="34.1122" y1="28.4734" x2="33.0962" y2="29.4894" width="0.254" layer="16"/>
 <wire x1="37.1602" y1="28.4734" x2="34.1122" y2="28.4734" width="0.254" layer="16"/>
 <wire x1="33.0962" y1="29.4894" x2="32.94" y2="29.5404" width="0.254" layer="16"/>
@@ -2288,7 +2309,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$4">
 <contactref element="MCP2515-I/P" pad="8"/>
 <contactref element="C2" pad="2"/>
-<contactref element="16MHZ" pad="1"/>
+<contactref element="X2" pad="1"/>
 <wire x1="34.1122" y1="25.6794" x2="33.0962" y2="24.6634" width="0.254" layer="16"/>
 <wire x1="37.1602" y1="25.6794" x2="34.1122" y2="25.6794" width="0.254" layer="16"/>
 <wire x1="33.0962" y1="24.6634" x2="32.94" y2="24.4604" width="0.254" layer="16"/>
@@ -2361,7 +2382,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$16">
 <contactref element="ATMEGA168-20PU" pad="9"/>
-<contactref element="OSC1" pad="2"/>
+<contactref element="X1" pad="2"/>
 <contactref element="C10" pad="2"/>
 <wire x1="13.5382" y1="42.4434" x2="14.5542" y2="41.4274" width="0.254" layer="16"/>
 <wire x1="10.4902" y1="42.4434" x2="13.5382" y2="42.4434" width="0.254" layer="16"/>
@@ -2373,7 +2394,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$17">
 <contactref element="ATMEGA168-20PU" pad="10"/>
-<contactref element="OSC1" pad="1"/>
+<contactref element="X1" pad="1"/>
 <contactref element="C11" pad="2"/>
 <wire x1="13.5382" y1="45.2374" x2="14.5542" y2="46.2534" width="0.254" layer="16"/>
 <wire x1="10.4902" y1="45.2374" x2="13.5382" y2="45.2374" width="0.254" layer="16"/>
@@ -2398,18 +2419,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.0482" y1="11.2014" x2="29.886" y2="11.4374" width="0.254" layer="1"/>
 </signal>
 <signal name="N$23">
-<contactref element="R6" pad="2"/>
-<contactref element="Q3" pad="D"/>
 <contactref element="ATMEGA168-20PU" pad="2"/>
 <wire x1="14.0462" y1="21.1074" x2="10.4902" y2="24.6634" width="0.254" layer="1"/>
 <wire x1="14.0462" y1="18.7198" x2="14.0462" y2="21.1074" width="0.254" layer="1"/>
 <wire x1="10.4902" y1="24.6634" x2="10.35" y2="24.8552" width="0.254" layer="1"/>
-<wire x1="29.7942" y1="8.1534" x2="29.8182" y2="8.1062" width="0.254" layer="1"/>
-<wire x1="42.2402" y1="12.4714" x2="42.2402" y2="15.2654" width="0.254" layer="16"/>
-<wire x1="34.3662" y1="12.4714" x2="42.2402" y2="12.4714" width="0.254" layer="16"/>
-<wire x1="30.0482" y1="8.1534" x2="34.3662" y2="12.4714" width="0.254" layer="16"/>
-<wire x1="42.2402" y1="15.2654" x2="42.3406" y2="15.4554" width="0.254" layer="16"/>
-<wire x1="30.0482" y1="8.1534" x2="29.8182" y2="8.1062" width="0.254" layer="16"/>
 <wire x1="29.7942" y1="8.1534" x2="28.956" y2="8.1534" width="0.254" layer="1"/>
 <wire x1="28.956" y1="8.1534" x2="28.702" y2="8.4074" width="0.254" layer="1" curve="-90"/>
 <wire x1="28.702" y1="8.4074" x2="28.702" y2="16.4338" width="0.254" layer="1"/>
@@ -2419,10 +2432,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="24.5872" y1="18.796" x2="23.749" y2="17.9578" width="0.254" layer="1"/>
 <wire x1="23.749" y1="17.9578" x2="14.8082" y2="17.9578" width="0.254" layer="1"/>
 <wire x1="14.0462" y1="18.7198" x2="14.8082" y2="17.9578" width="0.254" layer="1"/>
+<contactref element="BS170" pad="D"/>
+<contactref element="R6" pad="2"/>
+<wire x1="28.702" y1="16.4338" x2="42.3406" y2="15.4554" width="0" layer="19" extent="1-1"/>
+<wire x1="29.8182" y1="8.1062" x2="29.7942" y2="8.1534" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R7" pad="2"/>
-<contactref element="Q3" pad="G"/>
+<contactref element="BS170" pad="G"/>
 <contactref element="RASPI" pad="2"/>
 <wire x1="44.7802" y1="13.7414" x2="41.2242" y2="13.7414" width="0.254" layer="1"/>
 <wire x1="44.7802" y1="19.3294" x2="44.7802" y2="18.8214" width="0.254" layer="1"/>
@@ -2510,7 +2527,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="57.4802" y1="39.9034" x2="57.6666" y2="39.702" width="0.254" layer="16"/>
 </signal>
 <signal name="N$32">
-<contactref element="Q3" pad="S"/>
+<contactref element="BS170" pad="S"/>
 <contactref element="RASPI" pad="7"/>
 <contactref element="R7" pad="1"/>
 <wire x1="37.4142" y1="17.8054" x2="39.7002" y2="15.5194" width="0.254" layer="1"/>
@@ -2527,7 +2544,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$24">
 <contactref element="R3" pad="1"/>
-<contactref element="D1" pad="A"/>
+<contactref element="75V" pad="A"/>
 <contactref element="ATMEGA168-20PU" pad="1"/>
 <contactref element="RESET" pad="3"/>
 <contactref element="RESET" pad="4"/>
@@ -2570,30 +2587,35 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$12">
 <polygon width="0.254" layer="1">
-<vertex x="0.5334" y="57.6326"/>
-<vertex x="0.4572" y="57.6326"/>
-<vertex x="0.4572" y="17.1196"/>
-<vertex x="26.8732" y="17.1196"/>
-<vertex x="27.94" y="16.0528"/>
-<vertex x="27.94" y="0.5588"/>
-<vertex x="62.611" y="0.5588"/>
-<vertex x="62.611" y="0.5842"/>
-<vertex x="62.611" y="57.658"/>
-<vertex x="0.4318" y="57.658"/>
+<vertex x="0.5842" y="17.9832"/>
+<vertex x="1.27" y="17.2974"/>
+<vertex x="26.8732" y="17.2974"/>
+<vertex x="27.9908" y="16.1798"/>
+<vertex x="27.9908" y="1.3208"/>
+<vertex x="28.7274" y="0.5842"/>
+<vertex x="61.9506" y="0.5842"/>
+<vertex x="62.5348" y="1.1684"/>
+<vertex x="62.5348" y="57.023"/>
+<vertex x="61.9506" y="57.6072"/>
+<vertex x="1.27" y="57.6072"/>
+<vertex x="0.6096" y="56.9468"/>
 </polygon>
 </signal>
 <signal name="N$13">
 <polygon width="0.254" layer="16">
-<vertex x="0.4826" y="57.6834"/>
-<vertex x="0.4826" y="17.1196"/>
-<vertex x="26.8732" y="17.1196"/>
-<vertex x="27.94" y="16.0528"/>
-<vertex x="27.94" y="0.5842"/>
-<vertex x="62.611" y="0.5842"/>
-<vertex x="62.611" y="0.635"/>
-<vertex x="62.611" y="57.6326"/>
-<vertex x="0.4826" y="57.6326"/>
-<vertex x="0.4826" y="57.658"/>
+<vertex x="0.6096" y="56.9214"/>
+<vertex x="0.6096" y="17.9578"/>
+<vertex x="1.3208" y="17.2466"/>
+<vertex x="26.8478" y="17.2466"/>
+<vertex x="27.9908" y="16.1036"/>
+<vertex x="27.9908" y="1.3208"/>
+<vertex x="28.7528" y="0.5588"/>
+<vertex x="61.9252" y="0.5588"/>
+<vertex x="62.5856" y="1.2192"/>
+<vertex x="62.5856" y="56.9722"/>
+<vertex x="61.9506" y="57.6072"/>
+<vertex x="1.27" y="57.6072"/>
+<vertex x="0.6096" y="56.9468"/>
 </polygon>
 </signal>
 </signals>
