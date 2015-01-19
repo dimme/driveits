@@ -9,4 +9,6 @@ Universal Medium Range Radar and IEEE 802.11p Modem Solution for Integrated Traf
 * D. Vlastaras, D. Leston:
 Improved Traffic Safety by Wireless Vehicular Communication, Lund University, Sweden, 2013-06-17.
 
+Hardware is available for purchase at http://dimme.net/shop/ if you cannot produce it yourself.
+
 Everything is released under the GPLv3 license. For any commercial purposes please contact mail@NOSPAM@dimme.net
